@@ -24,81 +24,81 @@ URL-REGEX,^https?:\/\/wx[0-9]\.sinaimg\.cn\/large\/.+\.gif$,REJECT
 
 [Map Local]
 # > 微博
-^https?:\/\/h5\.sinaimg\.cn\/upload\/.+\/fhy_dongtu\.gif$ data="https://github.com/Sramsh/conf/blob/411c1f5da10ea49f2cb727a040239ac3192de8f0/Mock/hy_dongtu.gif"
-^https?:\/\/h5\.sinaimg\.cn\/upload\/.+\/bianjijiantou\.png$ data="https://github.com/Sramsh/conf/blob/411c1f5da10ea49f2cb727a040239ac3192de8f0/Mock/jiantougaocheng.png"
-^https?:\/\/h5\.sinaimg\.cn\/upload\/.+\/Vip\.png$ data="https://github.com/Sramsh/conf/blob/411c1f5da10ea49f2cb727a040239ac3192de8f0/Mock/avatar_vip_golden.png"
-^https?:\/\/h5\.sinaimg\.cn\/upload\/.+\/vip[0-9]_default\.png$ data="https://github.com/Sramsh/conf/blob/411c1f5da10ea49f2cb727a040239ac3192de8f0/Mock/feed_icon_100vip_7_default.png"
+^https?:\/\/h5\.sinaimg\.cn\/upload\/.+\/fhy_dongtu\.gif$ data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/hy_dongtu.gif"
+^https?:\/\/h5\.sinaimg\.cn\/upload\/.+\/bianjijiantou\.png$ data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/jiantougaocheng.png"
+^https?:\/\/h5\.sinaimg\.cn\/upload\/.+\/Vip\.png$ data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/avatar_vip_golden.png"
+^https?:\/\/h5\.sinaimg\.cn\/upload\/.+\/vip[0-9]_default\.png$ data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/feed_icon_100vip_7_default.png"
 
 # > 微博积分弹窗
-^https?:\/\/luck\.sc\.weibo\.com\/aj\/Action\/indexInfo$ data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
+^https?:\/\/luck\.sc\.weibo\.com\/aj\/Action\/indexInfo$ data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
 
 # > 会员中心弹窗
-^https?:\/\/new\.vip\.weibo\.c(n|om)\/aj\/vipcenter\/popalert data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/new\.vip\.weibo\.c(n|om)\/aj\/vipcenter\/userdata data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
+^https?:\/\/new\.vip\.weibo\.c(n|om)\/aj\/vipcenter\/popalert data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/new\.vip\.weibo\.c(n|om)\/aj\/vipcenter\/userdata data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
 
 # > 微博推荐
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/statuses\/unread_hot_timeline\?gsid= data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/statuses\/unread_hot_timeline\?gsid= data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
 
 # > 获取设备型号
-^https?:\/\/m?api\.weibo\.c(n|om)\/device\/get data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/getDevice.json?token=GHSAT0AAAAAABYU7MDSPVT6BQQXVVNCBSF6YY6444Q"
+^https?:\/\/m?api\.weibo\.c(n|om)\/device\/get data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/getDevice.json"
 
 # > 微博发现
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/search\/container_discover\?gsid= data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/search\/container_discover\?gsid= data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
 
 # > 微博话题按钮红点
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/huati\/discovery_home_bottom_getdotinfo data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/huati\/discovery_home_bottom_getdotinfo data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
 
 # > 微博超话看帖
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/huati\/discovery_home_bottom_channel_list data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/statuses\/unread_topic_timeline data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/statuses\/container_timeline_topic data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/huati\/discovery_home_bottom_channel_list data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/statuses\/unread_topic_timeline data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/statuses\/container_timeline_topic data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
 
 # > 微博网络检测
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/carrier\/get\/info data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/carrier.json?token=GHSAT0AAAAAABYU7MDTXNVWUEH6H4HRSSBSYY65CMA"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/carrier\/get\/info data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/carrier.json"
 
 # > 微博订单
-^https?:\/\/shop\.sc\.weibo\.com\/aj\/h5\/order\/prolist data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
+^https?:\/\/shop\.sc\.weibo\.com\/aj\/h5\/order\/prolist data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
 
 # > 微博视频推荐
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/redpacket data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/community_tab data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/multimedia\/playback\/batch_get data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/multimedia\/video\/comments\/get_comments_order_by_hot data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/tiny_stream_channel_list data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/tiny_stream_video_list data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/redpacket data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/community_tab data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/multimedia\/playback\/batch_get data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/multimedia\/video\/comments\/get_comments_order_by_hot data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/tiny_stream_channel_list data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/tiny_stream_video_list data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
 
 # > 微博其它
-^https?:\/\/letsgo\.e\.weibo\.com\/stracker\/fe\/report data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/multimedia\/video\/red_package\/grow_follower\/active_uids data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/client\/tabbar data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/push\/daily data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/page\/get_fragment data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/push\/active data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m\.weibo\.cn\/c\/checkin data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/machine data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/fastimage\.uve\.weibo\.com\/interface\/sdk\/getad\.php$ data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/actionpro\.php data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/sdkclick\.uve\.weibo\.com\/interface\/sdk\/sdkclick\.php data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkconfig\.php data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
-^https?:\/\/m?api\.weibo\.c(n|om)\/2\/hot\/repost_daily data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json?token=GHSAT0AAAAAABYU7MDTUBZC66WGZOVFPBYKYY643QQ"
+^https?:\/\/letsgo\.e\.weibo\.com\/stracker\/fe\/report data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/multimedia\/video\/red_package\/grow_follower\/active_uids data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/client\/tabbar data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/push\/daily data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/page\/get_fragment data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/push\/active data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m\.weibo\.cn\/c\/checkin data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/machine data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/fastimage\.uve\.weibo\.com\/interface\/sdk\/getad\.php$ data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/actionpro\.php data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/sdkclick\.uve\.weibo\.com\/interface\/sdk\/sdkclick\.php data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkconfig\.php data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/hot\/repost_daily data="https://raw.githubusercontent.com/Sramsh/conf/main/Mock/Blank/Blank_Dict.json"
 
 [Script]
 # > 微博个人信息
-个人信息 = type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/2\/(statuses\/send|statuses\/destroy|comments\/destroy|profile|users\/(show|relation)|direct_messages\/user_list|messageflow\/notice)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sramsh/conf/main/Script/Profile.js?token=GHSAT0AAAAAABYU7MDTASCWY5UAX6SQSY6WYY65DPQ
+个人信息 = type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/2\/(statuses\/send|statuses\/destroy|comments\/destroy|profile|users\/(show|relation)|direct_messages\/user_list|messageflow\/notice)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sramsh/conf/main/Script/Profile.js
 
-会员中心 = type=http-response,pattern=^https?:\/\/new\.vip\.weibo\.c(n|om)\/aj\/(vipcenter\/home|avatargj\/mall|activity\/userinfo|cardbackground\/index),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sramsh/conf/main/Script/VIPCenter.js?token=GHSAT0AAAAAABYU7MDTHUSAHDIUIAXRGAH6YY65EBQ
+会员中心 = type=http-response,pattern=^https?:\/\/new\.vip\.weibo\.c(n|om)\/aj\/(vipcenter\/home|avatargj\/mall|activity\/userinfo|cardbackground\/index),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sramsh/conf/main/Script/VIPCenter.js
 
 # > 微博去广告
-微博 = type=http-response,pattern=^https?://m?api\.weibo\.c(n|om)/2/(profile/(me|statuses)|searchall|statuses/(unread_hot_timeline|extend|video_mixtimeline)|video/(community_tab|remind_info|tiny_stream_video_list)|checkin/show|container/get_item|search/container_discover),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sramsh/conf/main/Script/Weibo.js?token=GHSAT0AAAAAABYU7MDSNO6JKKZQGP7AYSAGYY65ERQ
+微博 = type=http-response,pattern=^https?://m?api\.weibo\.c(n|om)/2/(profile/(me|statuses)|searchall|statuses/(unread_hot_timeline|extend|video_mixtimeline)|video/(community_tab|remind_info|tiny_stream_video_list)|checkin/show|container/get_item|search/container_discover),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sramsh/conf/main/Script/Weibo.js
 
-开屏 = requires-body=1,script-path=https://raw.githubusercontent.com/Sramsh/conf/main/Script/Launch.js?token=GHSAT0AAAAAABYU7MDSFZRU6464WSP3ITPCYY65FKA,type=http-response,pattern=^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua)
+开屏 = requires-body=1,script-path=https://raw.githubusercontent.com/Sramsh/conf/main/Script/Launch.js,type=http-response,pattern=^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua)
 
-微博信息流 = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist|wbox\/.+\/createrIndex|st_videos\/tiny\/effect\/shoot_display_config)|video/tiny_stream_video_list|photo/info|remind/unread_count|search/finder|search/container_timeline|!\/huati\/discovery_home_bottom_channel_list|statuses\/unread_topic_timeline),script-path=https://raw.githubusercontent.com/Sramsh/conf/main/Script/Timeline.js?token=GHSAT0AAAAAABYU7MDS365KYU2GDL33OVDUYY65GJQ
+微博信息流 = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist|wbox\/.+\/createrIndex|st_videos\/tiny\/effect\/shoot_display_config)|video/tiny_stream_video_list|photo/info|remind/unread_count|search/finder|search/container_timeline|!\/huati\/discovery_home_bottom_channel_list|statuses\/unread_topic_timeline),script-path=https://raw.githubusercontent.com/Sramsh/conf/main/Script/Timeline.js
 
-微博钱包订单 = type=http-response,pattern=(^https?:\/\/js\.t\.sinajs\.cn\/c2p\/sam\/frontend\/assets\/walletcache\.json|^https?:\/\/pay\.sc\.weibo\.com\/api\/client\/sdk\/app\/indexnew\/(index|person)|^https?:\/\/shop\.sc\.weibo\.com\/aj\/h5\/order\/center),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sramsh/conf/main/Script/Wallet.js?token=GHSAT0AAAAAABYU7MDTXAXVTPWK6C5FVJI4YY65GZQ
+微博钱包订单 = type=http-response,pattern=(^https?:\/\/js\.t\.sinajs\.cn\/c2p\/sam\/frontend\/assets\/walletcache\.json|^https?:\/\/pay\.sc\.weibo\.com\/api\/client\/sdk\/app\/indexnew\/(index|person)|^https?:\/\/shop\.sc\.weibo\.com\/aj\/h5\/order\/center),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sramsh/conf/main/Script/Wallet.js
 
 # > 微博配置注入
-微博去广告配置注入 = type=cron,cronexp="0 0 1 ? * MON",debug=1,script-path=https://raw.githubusercontent.com/Sramsh/conf/main/Script/Config.js?token=GHSAT0AAAAAABYU7MDTSXSWDNN533GWVX32YY65HNQ
+微博去广告配置注入 = type=cron,cronexp="0 0 1 ? * MON",debug=1,script-path=https://raw.githubusercontent.com/Sramsh/conf/main/Script/Config.js
 
 [MITM]
 hostname = %APPEND% *.uve.weibo.com, *api.weibo.cn, *api.weibo.com, h5.sinaimg.cn, new.vip.weibo.cn, *.sc.weibo.com, captcha.weibo.com, wx*.sinaimg.cn, js.t.sinajs.cn, *.e.weibo.com
